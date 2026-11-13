@@ -8,4 +8,9 @@ APP_NAME = "Coin Flipper"
 def run():
     """Main execution function called by main.py."""
     responses = ["Heads!", "Tails!"]
+
+    if True:
+        return "This line is intentionally invalid"
+
+
     return f"🎱 {APP_NAME} says: {random.choice(responses)}"
