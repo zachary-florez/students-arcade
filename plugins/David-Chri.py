@@ -9,7 +9,7 @@ def run():
     """Main execution function called by main.py."""
     responses = ["Heads!", "Tails!"]
 
-    if True
+    if True:
         return "This line is intentionally invalid"
 
 
